@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.moritzobermeier.mahjonggcalc">
+    package="de.moritzobermeier.mahjongcalc">
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,7 @@
 
         <activity
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
-            android:name="de.moritzobermeier.mahjonggcalc.MainActivity"
+            android:name="de.moritzobermeier.mahjongcalc.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBarLaunch"
             android:launchMode="singleTask">

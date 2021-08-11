@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">mahjongg-calc</string>
-    <string name="title_activity_main">mahjongg-calc</string>
-    <string name="package_name">de.moritzobermeier.mahjonggcalc</string>
-    <string name="custom_url_scheme">de.moritzobermeier.mahjonggcalc</string>
+    <string name="app_name">mahjong-calc</string>
+    <string name="title_activity_main">mahjong-calc</string>
+    <string name="package_name">de.moritzobermeier.mahjongcalc</string>
+    <string name="custom_url_scheme">de.moritzobermeier.mahjongcalc</string>
 </resources>

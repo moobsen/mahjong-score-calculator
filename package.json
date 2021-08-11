@@ -1,8 +1,8 @@
 {
-  "name": "mahjongg-calc",
+  "name": "mahjong-calc",
   "version": "0.0.2",
   "author": "Moritz Obermeier",
-  "homepage": "https://github.com/moobsen/mahjongg-calc",
+  "homepage": "https://github.com/moobsen/mahjong-calc",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
