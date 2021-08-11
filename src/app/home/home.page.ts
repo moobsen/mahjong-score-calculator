@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AlertController } from '@ionic/angular';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-home',
@@ -16,6 +17,7 @@ export class HomePage {
   private player4: number[] = [];
   private eastWindArr: number[] = [];
   private roundWinnerArr: number[] = [];
+  public currentApplicationVersion = environment.appVersion;
   eastWind: number = 0;
   roundWinner: number = 0;
   points_p1: number = 0;
