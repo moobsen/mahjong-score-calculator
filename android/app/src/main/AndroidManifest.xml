@@ -14,7 +14,8 @@
             android:name="de.moritzobermeier.mahjongcalc.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBarLaunch"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +32,7 @@
         </activity>
 
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
