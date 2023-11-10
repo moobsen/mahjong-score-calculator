@@ -1,2 +1,3 @@
 #!/bin/bash
-ionic  build --prod -- --base-href /mahjong/
+ng  build --configuration production --base-href /mahjong/
+
